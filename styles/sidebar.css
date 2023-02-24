@@ -18,3 +18,22 @@
   line-height: 15px;
   color: #838383;
 }
+
+ /* SIDEBAR MAIN */
+
+.sidebar__main {
+  padding: 0px 28px;
+}
+.sidebar__footer {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.textBlock__name {
+  font-size: 14px;
+}
+.textBlock__job {
+  font-weight: 400;
+  font-size: 12px;
+  color: #757575;
+}
