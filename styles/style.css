@@ -1,6 +1,7 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 @import url(sidebar.css);
+@import url(main.css);
 
 body {
   font-family: Poppins;
@@ -10,9 +11,4 @@ body {
   min-height: 100%;
   display: flex;
   overflow: clip;
-}
-[class*='main__container'] {
-  max-width: 968px;
-  margin: auto;
-  padding: 30px 40px 40px 38px;
 }
