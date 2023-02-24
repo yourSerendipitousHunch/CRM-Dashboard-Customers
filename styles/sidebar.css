@@ -1,0 +1,20 @@
+.sidebar__head {
+  padding: 36px 54px 64px 32px;
+  display: flex;
+  align-items: center;
+}
+.sidebar__head-textBox {
+  display: flex;
+  align-items: baseline;
+}
+.sidebar__head-headline {
+  padding: 0px 4px 0px 10px;
+  font-weight: 600;
+  font-size: 26px;
+  letter-spacing: 0.01em;
+}
+.sidebar__head-test {
+  font-size: 10px;
+  line-height: 15px;
+  color: #838383;
+}
