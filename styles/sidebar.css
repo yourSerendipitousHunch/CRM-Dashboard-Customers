@@ -38,7 +38,6 @@
   padding: 11px 8px 11px 11px;
   border-radius: 8px;
 }
-.service-list__item:hover,
 .service-list__item.active {
   color: #fff;
   background-color: #5932EA;
