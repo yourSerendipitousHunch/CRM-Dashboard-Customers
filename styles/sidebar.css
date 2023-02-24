@@ -1,5 +1,5 @@
 .sidebar__head {
-  padding: 36px 54px 64px 32px;
+  padding: 36px 54px 53px 32px;
   display: flex;
   align-items: center;
 }
@@ -11,7 +11,6 @@
   padding: 0px 4px 0px 10px;
   font-weight: 600;
   font-size: 26px;
-  letter-spacing: 0.01em;
 }
 .sidebar__head-test {
   font-size: 10px;
@@ -22,12 +21,47 @@
  /* SIDEBAR MAIN */
 
 .sidebar__main {
-  padding: 0px 28px;
+  padding: 0px 20px 0px 28px;
 }
+.sidebar__main-content {
+  margin-bottom: 577px;
+}
+.sidebar__service-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.service-list__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 11px 8px 11px 11px;
+  border-radius: 8px;
+}
+.service-list__item:hover,
+.service-list__item.active {
+  color: #fff;
+  background-color: #5932EA;
+  cursor: pointer;
+}
+.service-list__item-main {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+}
+.service-list__item-text {
+  color: #9197B3;
+  font-size: 14px;
+}
+
+/* SIDEBAR FOOTER */
+
 .sidebar__footer {
   display: flex;
   gap: 12px;
   align-items: center;
+  margin-bottom: 76px;
 }
 .textBlock__name {
   font-size: 14px;
