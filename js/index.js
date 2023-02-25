@@ -17,6 +17,16 @@ burgerButton.addEventListener("click", () => {
   }
 });
 
+document.addEventListener("click", (event) => {
+  // Check if the clicked element is outside the sidebar
+  if (!sidebar.contains(event.target) && !burgerButton.contains(event.target)) {
+    // Hide the sidebar
+    sidebar.classList.remove("active");
+    burgerButton.classList.remove("active");
+    sidebar.style.transform = "translateX(0)";
+  }
+});
+
 // dropdown menu
 
 const squareItems = document.querySelectorAll('.square-item');
