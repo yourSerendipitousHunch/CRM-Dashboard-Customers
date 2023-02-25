@@ -66,6 +66,12 @@
   border-bottom: 1px solid #EEEEEE;
   padding: 24px 0px 23px 0px;
 }
+.body__item .square-item {
+  display: none;
+}
+.container-body__dropdown {
+  display: none;
+}
 .body__item-btn {
   display: flex;
   justify-content: center;
@@ -123,4 +129,111 @@
 .square-item.active {
   color: #fff;
   background-color: #5932EA;
+}
+
+@media (max-width: 1439px) {
+  .main__page-container {
+    padding: 41px 95px 258px 19px;
+  }
+  .service-list__item {
+    width: 160px;
+  }
+  .service-list__item-arrow {
+    display: none;
+  }
+}
+@media (max-width: 1380px) {
+  .main__page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__page-headline {
+    display: flex;
+    align-items: center;
+    gap: 700px;
+  }
+}
+@media (max-width: 1020px) {
+  .main__page-container {
+    padding: 30px 15px 50px 15px;
+  }
+  .main__container {
+    width: fit-content;
+  }
+  .main__page-headline {
+    gap: 280px;
+  }
+  .main__container-head {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .container-body__headlines {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .main__container-body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .body__item .body__item-visible {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+  }
+  .container-body__dropdown.visible {
+    display: block;
+  }
+  .body__item {
+    border: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .body__item .square-item {
+    display: flex;
+    transform: rotate(270deg);
+  }
+ .body__item .square-item.rotate {
+    transform: rotate(90deg);
+  }
+  .body__item .body__item {
+    padding: 5px 0px;
+  }
+  .body__item-btn {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__page-footer {
+    justify-content: center;
+  }
+  .page-footer__left {
+    display: none;
+  }
+  .body__company-headline,
+  .container-body__company,
+  .body__number-headline,
+  .container-body__number,
+  .body__email-headline,
+  .container-body__email,
+  .body__country-headline,
+  .container-body__country,
+  .body__status-headline,
+  .container-body__status {
+    display: none;
+  }
+}
+@media (max-width: 530px) {
+  .main__page-headline {
+    gap: 200px;
+  }
+}
+@media (max-width: 420px) {
+  .main__page-headline {
+    gap: 100px;
+  }
 }
