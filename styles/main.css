@@ -133,7 +133,7 @@
 
 @media (max-width: 1439px) {
   .main__page-container {
-    padding: 41px 95px 258px 19px;
+    padding: 41px 0px 58px 19px;
   }
   .service-list__item {
     width: 160px;
