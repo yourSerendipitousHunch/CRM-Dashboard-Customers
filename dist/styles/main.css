@@ -1,0 +1,12 @@
+header {
+  font: 500 14px/21px "fonts/PoppinsMedium.css", sans-serif;
+}
+
+footer {
+  font: 500 14px/21px "fonts/PoppinsRegular.css", sans-serif;
+}
+
+
+body {
+  background-color: aliceblue;
+}
