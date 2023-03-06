@@ -1,5 +1,10 @@
 .header {
-  margin: 41px 71px 53px 91px;
+  margin: 41px 91px 53px 91px;
+}
+@media (max-width: 480px) {
+  .header {
+    margin: 40px 20px 40px 20px;
+  }
 }
 .header__container {
   display: -webkit-box;
@@ -63,7 +68,17 @@
 }
 
 .main {
-  margin: 0 71px 238px 91px;
+  margin: 0 91px 238px 91px;
+}
+@media (max-width: 1000px) {
+  .main {
+    margin: 0 40px 100px 40px;
+  }
+}
+@media (max-width: 767px) {
+  .main {
+    margin: 0 20px 40px 20px;
+  }
 }
 .main__container {
   padding: 35px 40px 40px 38px;
@@ -83,6 +98,15 @@
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 20px;
+}
+@media (max-width: 480px) {
+  .main__header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
 }
 .main__header .header-text__title {
   font: 600 22px "fonts/PoppinsSemiBold.css", sans-serif;
@@ -159,9 +183,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  overflow-x: scroll;
-  -ms-scroll-snap-type: x mandatory;
-      scroll-snap-type: x mandatory;
 }
 @media (max-width: 1130px) {
   .table__list {
@@ -223,6 +244,15 @@
       -ms-flex-align: center;
           align-items: center;
 }
+@media (max-width: 656px) {
+  .table__footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+}
 
 .footer__info {
   color: #B5B7C0;
@@ -241,6 +271,11 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+}
+@media (max-width: 344px) {
+  .footer__swaper :nth-child(5) {
+    display: none;
+  }
 }
 
 .swaper__item {
@@ -437,6 +472,14 @@ body {
   display: -ms-flexbox;
   display: flex;
   overflow: clip;
+}
+@media (max-width: 1130px) {
+  .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .container {
