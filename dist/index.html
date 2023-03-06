@@ -12,16 +12,169 @@
   <link rel="stylesheet" href="styles/fonts/PoppinsSemiBold.css">
 	<link rel="stylesheet" media="all" href="styles/main.css">
 </head>
+
 <body>
   <div class="wrapper">
     <header class="header">
-      <div class="container">
-        sflgkdfjg
+  <div class="header__container container">
+    <h1 class="header__title">Hello Evano 👋🏼,</h1>
+    <button class="header__burger">
+      <span class="header__burger-line"></span>
+      <span class="header__burger-line"></span>
+      <span class="header__burger-line"></span>
+    </button>
+  </div>
+</header>
+    <main class="main">
+  <div class="main__container container">
+    <div class="main__header">
+  <div class="main__header-text">
+    <h2 class="header-text__title">All Customers</h2>
+    <div class="header-text__description">Active Members</div>
+  </div>
+  <label for="search" class="header__search">
+    <svg class="search-icon">
+      <use href="img/sprite/sprite.svg#search"></use>
+    </svg>
+    <input type="text" placeholder="Search" id="search" class="search__text">
+  </label>
+</div>
+    <dl class="main__table">
+        <div class="table__header table__list">
+    <dt class="table-list__item">Customer Name</dt>
+    <dt class="table-list__item">Company</dt>
+    <dt class="table-list__item">Phone Number</dt>
+    <dt class="table-list__item">Email</dt>
+    <dt class="table-list__item">Country</dt>
+    <dt class="table-list__item">Status</dt>
+  </div>
+  <div class="table__main">
+    <div class="table__list">
+      <dd class="table-list__item">Jane Cooper</dd>
+      <dd class="table-list__item">Microsoft</dd>
+      <dd class="table-list__item">(225) 555-0118</dd>
+      <dd class="table-list__item">jane@microsoft.com</dd>
+      <dd class="table-list__item">United States</dd>
+      <div class="table-list__item">
+        <div class="item-btn green">
+          <dd>Active</dd>
+        </div>
       </div>
-    </header>
+    </div>
+      <div class="table__list">
+        <dd class="table-list__item">Floyd Miles</dd>
+        <dd class="table-list__item">Yahoo</dd>
+        <dd class="table-list__item">(205) 555-0100</dd>
+        <dd class="table-list__item">floyd@yahoo.com</dd>
+        <dd class="table-list__item">Kiribati</dd>
+        <div class="table-list__item">
+          <div class="item-btn red">
+            <dd>Inactive</dd>
+          </div>
+        </div>
+      </div>
+      <div class="table__list">
+        <dd class="table-list__item">Ronald Richards</dd>
+        <dd class="table-list__item">Adobe</dd>
+        <dd class="table-list__item">(302) 555-0107</dd>
+        <dd class="table-list__item">ronald@adobe.com</dd>
+        <dd class="table-list__item">Israel</dd>
+        <div class="table-list__item">
+          <div class="item-btn red">
+            <dd>Inactive</dd>
+          </div>
+        </div>
+      </div>
+      <div class="table__list">
+        <dd class="table-list__item">Marvin McKinney</dd>
+        <dd class="table-list__item">Tesla</dd>
+        <dd class="table-list__item">(252) 555-0126</dd>
+        <dd class="table-list__item">marvin@tesla.com</dd>
+        <dd class="table-list__item">Iran</dd>
+        <div class="table-list__item">
+          <div class="item-btn green">
+            <dd>Active</dd>
+          </div>
+        </div>
+      </div>   
+      <div class="table__list">
+        <dd class="table-list__item">Jerome Bell</dd>
+        <dd class="table-list__item">Google</dd>
+        <dd class="table-list__item">(629) 555-0129</dd>
+        <dd class="table-list__item">jerome@google.com</dd>
+        <dd class="table-list__item">Réunion</dd>
+        <div class="table-list__item">
+          <div class="item-btn green">
+            <dd>Active</dd>
+          </div>
+        </div>
+      </div>
+      <div class="table__list">
+        <dd class="table-list__item">Kathryn Murphy</dd>
+        <dd class="table-list__item">Microsoft</dd>
+        <dd class="table-list__item">(406) 555-0120</dd>
+        <dd class="table-list__item">kathryn@microsoft.com</dd>
+        <dd class="table-list__item">Curaçao</dd>
+        <div class="table-list__item">
+          <div class="item-btn green">
+            <dd>Active</dd>
+          </div>
+        </div>
+      </div>
+      <div class="table__list">
+        <dd class="table-list__item">Jacob Jones</dd>
+        <dd class="table-list__item">Yahoo</dd>
+        <dd class="table-list__item">(208) 555-0112</dd>
+        <dd class="table-list__item">jacob@yahoo.com</dd>
+        <dd class="table-list__item">Brazil</dd>
+        <div class="table-list__item">
+          <div class="item-btn green">
+            <dd>Active</dd>
+          </div>
+        </div>
+      </div>
+      <div class="table__list">
+        <dd class="table-list__item">Kristin Watson</dd>
+        <dd class="table-list__item">Facebook</dd>
+        <dd class="table-list__item">(704) 555-0127</dd>
+        <dd class="table-list__item">kristin@facebook.com</dd>
+        <dd class="table-list__item">Åland Islands</dd>
+        <div class="table-list__item">
+          <div class="item-btn red">
+            <dd>Inactive</dd>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="table__footer">
+  <div class="footer__info">Showing data 1 to 8 of 256K entries</div>
+  <ul class="footer__swaper">
+    <li class="swaper__item">
+      <svg class="arrow-icon">
+        <use href="img/sprite/sprite.svg#small-left-arrow"></use>
+      </svg>
+    </li>
+    <li class="swaper__item active">1</li>
+    <li class="swaper__item">2</li>
+    <li class="swaper__item">3</li>
+    <li class="swaper__item">4</li>
+    <span>...</span>
+    <li class="swaper__item">40</li>
+    <li class="swaper__item">
+      <svg class="arrow-icon">
+        <use href="img/sprite/sprite.svg#small-right-arrow"></use>
+      </svg>
+    </li>
+  </ul>
+</div>
+    </dl>
+  </div>
+</main>
     <footer class="footer">
-      sdfsdf
-    </footer>
+  <div class="container">
+  </div>
+</footer>
   </div>
 </body>
+
 </html>
