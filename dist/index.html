@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CRM Dashboard Customers</title>
   <link rel="stylesheet" media="all" href="styles/reset.css">
-  <script src="js/all.js"></script>
+  <script src="js/font-loader.js"></script>
   <link rel="stylesheet" href="styles/fonts/PoppinsMedium.css">
   <link rel="stylesheet" href="styles/fonts/PoppinsRegular.css">
   <link rel="stylesheet" href="styles/fonts/PoppinsSemiBold.css">
@@ -15,7 +15,8 @@
 
 <body>
   <div class="wrapper">
-    <header class="header">
+    <div class="page">
+      <header class="header">
   <div class="header__container container">
     <h1 class="header__title">Hello Evano 👋🏼,</h1>
     <button class="header__burger">
@@ -25,7 +26,7 @@
     </button>
   </div>
 </header>
-    <main class="main">
+      <main class="main">
   <div class="main__container container">
     <div class="main__header">
   <div class="main__header-text">
@@ -170,11 +171,94 @@
     </dl>
   </div>
 </main>
-    <footer class="footer">
-  <div class="container">
+    </div>
+    <aside class="aside">
+      <div class="aside__header">
+  <svg class="aside__logo">
+    <use href="img/sprite/sprite.svg#logo"></use>
+  </svg>
+  <div class="aside__text">
+    <h1 class="aside__headline">Dashboard</h1>
+    <div class="aside__version">v.01</div>
+  </div>
+</div>
+<ul class="aside__main">
+  <li class="main__item">
+    <div class="item__content">
+      <svg class="item__icon">
+        <use href="img/sprite/sprite.svg#1"></use>
+      </svg>
+      <div class="item__description">Dashboard</div>
+    </div>
+  </li>
+  <li class="main__item">
+    <div class="item__content">
+      <svg class="item__icon">
+        <use href="img/sprite/sprite.svg#2"></use>
+      </svg>
+      <div class="item__description">Product</div>
+    </div>
+    <svg class="item__arrow">
+      <use href="img/sprite/sprite.svg#arrow"></use>
+    </svg>
+  </li>
+  <li class="main__item chosen">
+    <div class="item__content">
+      <svg class="item__icon">
+        <use href="img/sprite/sprite.svg#3"></use>
+      </svg>
+      <div class="item__description">Customers</div>
+    </div>
+    <svg class="item__arrow">
+      <use href="img/sprite/sprite.svg#arrow"></use>
+    </svg>
+  </li>
+  <li class="main__item">
+    <div class="item__content">
+      <svg class="item__icon">
+        <use href="img/sprite/sprite.svg#4"></use>
+      </svg>
+      <div class="item__description">Income</div>
+    </div>
+    <svg class="item__arrow">
+      <use href="img/sprite/sprite.svg#arrow"></use>
+    </svg>
+  </li>
+  <li class="main__item">
+    <div class="item__content">
+      <svg class="item__icon">
+        <use href="img/sprite/sprite.svg#5"></use>
+      </svg>
+      <div class="item__description">Promote</div>
+    </div>
+    <svg class="item__arrow">
+      <use href="img/sprite/sprite.svg#arrow"></use>
+    </svg>
+  </li>
+  <li class="main__item">
+    <div class="item__content">
+      <svg class="item__icon">
+        <use href="img/sprite/sprite.svg#6"></use>
+      </svg>
+      <div class="item__description">Help</div>
+    </div>
+    <svg class="item__arrow">
+      <use href="img/sprite/sprite.svg#arrow"></use>
+    </svg>
+  </li>
+</ul>
+      <footer class="footer">
+  <div class="footer__ava">
+    <img src="img/ava.webp" alt="ava">
+  </div>
+  <div class="footer__text">
+    <p class="text__name">Evano</p>
+    <p class="text__job">Project Manager</p>
   </div>
 </footer>
+    </aside>
   </div>
+  <script src="js/aside.js"></script>
 </body>
 
 </html>
